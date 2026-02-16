@@ -67,6 +67,34 @@ If Gandalf starts talking about forming a fellowship, you're good.
 
 There's also a Palantir-bearer for adversarial review on riskier tasks, and temporary allies (Rangers, Riders of Rohan, Ents) that get spawned for short-lived subtasks.
 
+## Companies
+
+Each Quest Leader commands a Company, named after the peoples and forces of Middle-earth (because peoples act, places don't). Companies are tiered by task weight:
+
+| Tier | Examples | For |
+|---|---|---|
+| Patrols | Bombadil's Folk, The Bree-folk, Beorn's Folk | Small tasks |
+| War-bands | The Dunedain, The Rohirrim, The Beornings | General work |
+| Hosts | The Galadhrim, The Guard of the Citadel, The Dwarves of Erebor | High-risk/tempo |
+| Grand Alliances | The White Council, The Last Alliance, The Grey Company | Critical-path |
+| Shadow-walkers | The Rangers of Ithilien, The Dead of Dunharrow | Research/stealth |
+
+## Communication
+
+Agents use a Middle-earth communication lexicon instead of generic status updates:
+
+| Signal | Meaning |
+|---|---|
+| **Light a Beacon** | Acknowledge progress or good work |
+| **The Beacons are lit!** | Broadcast to all Companies |
+| **Palantir Vision** | Gandalf checks on a Company's status |
+| **Sound the Horn of Gondor** | Escalate a blocker to Gandalf |
+| **Send a Moth to the Eagles** | Gandalf escalates to you (the human) |
+| **"You shall not pass"** | Hard dependency gate |
+| **The road goes ever on** | Steady progress, no blockers |
+| **The deed is done** | Task complete |
+| **"Fly, you fools!"** | Emergency abort |
+
 ## Threat Levels
 
 | Level | Name | When |
