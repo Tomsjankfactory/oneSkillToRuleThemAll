@@ -1,4 +1,4 @@
-# Breaking of the Fellowship: Mission Abort
+# Breaking of the Fellowship: "Fly, You Fools!"
 
 Use when the mission cannot succeed under current conditions and continuing wastes budget.
 
@@ -9,12 +9,12 @@ Triggers:
 
 Procedure:
 
-1. Gandalf halts all in-progress work immediately.
+1. Gandalf calls *"Fly, you fools!"* — halts all in-progress work immediately.
 2. Each agent saves current partial outputs and documents their last known state.
 3. Gandalf produces an abort log using the Red Book of Westmarch Template with:
-   - Reason for abort.
+   - Reason for the Breaking.
    - Tasks completed and their outputs.
    - Tasks abandoned and their partial state.
-   - Conditions required before re-attempting the mission.
+   - Conditions required before re-attempting the quest.
 4. Gandalf issues shutdown requests to all agents.
-5. Gandalf presents the abort log to the human (The Valar) with a recommendation: retry with new constraints, descope, or abandon.
+5. Gandalf sends a Moth to the Eagles — presents the abort log to the human (The Valar) with a recommendation: retry with new constraints, descope, or abandon.

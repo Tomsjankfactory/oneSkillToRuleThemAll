@@ -1,14 +1,14 @@
 # Council of Elrond Report Template
 
 ```text
-Checkpoint time:
+Palantir Vision — Checkpoint time:
 
 Progress:
 - pending:
 - in_progress:
 - completed:
 
-Blockers:
+Horns of Gondor (blockers):
 - blocker:
   owner:
   next action:
@@ -22,10 +22,10 @@ Risk updates:
 - new/changed risks:
 - mitigation:
 
-Eagle Signal (if any):
+Beacons Lit (if any):
 - recognition:
 
 Gandalf's decision:
-- continue / rescope / stop:
+- the road goes ever on / rescope / fly, you fools:
 - rationale:
 ```

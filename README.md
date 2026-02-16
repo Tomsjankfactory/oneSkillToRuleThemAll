@@ -12,7 +12,7 @@ When you have a big task that benefits from multiple agents working in parallel,
 2. Forms a fellowship (picks the right agents for the job)
 3. Holds a council (breaks work into tasks, assigns owners)
 4. Runs checkpoints (tracks progress, unblocks issues)
-5. Assesses threat levels (The Shire through Mount Doom, basically low risk to "we need a human to confirm this")
+5. Assesses threat levels (The Shire through The Crack of Doom, basically low risk to "we need a human to confirm this")
 6. Writes the Red Book of Westmarch when it's done (a log of what happened and why)
 
 ## Install
@@ -71,10 +71,10 @@ There's also a Palantir-bearer for adversarial review on riskier tasks, and temp
 
 | Level | Name | When |
 |---|---|---|
-| 0 | The Shire | Low risk. Renaming things, comments, safe refactors |
-| 1 | The Wilds | Moderate. User-facing changes, coupled systems |
-| 2 | Isengard | High. Security, compliance, things that matter |
-| 3 | Mount Doom | Critical. Irreversible stuff. Gandalf asks you before proceeding |
+| 0 | The Shire -- *"...still there is much that is fair."* | Low risk. Renaming things, comments, safe refactors |
+| 1 | Weathertop -- *"Something draws near."* | Moderate. User-facing changes, coupled systems |
+| 2 | Helm's Deep -- *"So it begins."* | High. Security, compliance, things that matter |
+| 3 | The Crack of Doom -- *"Cast it into the fire!"* | Critical. Irreversible stuff. Gandalf asks you before proceeding |
 
 ## Credits
 

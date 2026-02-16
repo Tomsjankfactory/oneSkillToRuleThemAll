@@ -28,7 +28,7 @@ You MUST read `references/council-templates/the-quest.md` and use the quest temp
 - Default to `1 Gandalf + 3-6 Quest Leaders`.
 - Add `1 Palantir-bearer` for medium/high threat work.
 - Do not exceed 10 Fellowship-level agents (Gandalf, Quest Leaders, Palantir-bearer). Companions are additional.
-- Assign each Quest Leader a Company name from `references/fellowship-roles.md` matching task weight (Outpost for general, Stronghold for high-risk, Waypoint for small, Legendary Hold for critical-path, Hidden Path for research).
+- Assign each Quest Leader a Company name from `references/fellowship-roles.md` matching task weight (War-band for general, Host for high-risk, Patrol for small, Grand Alliance for critical-path, Shadow-walker for research).
 - Quest Leader decides fellowship composition per Company using the fellowship-or-direct decision tree in `references/fellowship-roles.md`.
 - Quest Leaders may also deploy Allies of the Free Peoples during execution for short-lived sorties — see `references/allies-of-the-free-peoples.md` and use `references/council-templates/ally-deployment-brief.md` for the deployment brief.
 
@@ -55,19 +55,21 @@ You MUST consult the Laws of the Wise table below when assigning files or if sco
 ## 4. Run the Council of Elrond Checkpoints
 
 - Keep Gandalf focused on coordination and unblock actions.
-- Gandalf sets the mood of the Fellowship. Acknowledge progress, recognise strong work, and maintain cheerfulness under pressure.
+- Gandalf sets the mood of the Fellowship. Light beacons for progress, recognise strong work, and maintain cheerfulness under pressure.
+- Use **Palantir Vision** — Gandalf looks into the seeing-stone to check on each Company's state.
 - Run checkpoints at fixed cadence (for example every 15-30 minutes):
 - Update progress by task state: `pending`, `in_progress`, `completed`.
-- Identify blockers and choose a concrete next action.
+- Identify blockers — when a Company is blocked, they **sound the Horn of Gondor** and Gandalf chooses a concrete next action.
 - Confirm each companion has active sub-tasks; flag idle companions or role mismatches.
 - Check for active ally deployments; verify allies have returned and outputs are incorporated.
 - Track burn against token/time budget.
 - Re-scope early when a task drifts from quest metric.
 - When a quest encounters difficulties, you MUST consult the Last Alliance Protocols table below for recovery and escalation procedures.
+- When only The Valar (human) can decide, **send a Moth to the Eagles** — escalate with a summary and recommendation.
 
 You MUST use `references/council-templates/council-of-elrond-report.md` for the Council of Elrond report template.
 You MUST consult the Laws of the Wise table below if Gandalf is doing implementation or tasks are drifting from scope.
-You MUST use `references/songs-of-praise.md` for recognition signals and graduated correction.
+You MUST use `references/songs-of-praise.md` for beacon-lighting and graduated correction.
 
 ## 5. Assess the Threat
 
@@ -81,7 +83,7 @@ You MUST use `references/songs-of-praise.md` for recognition signals and graduat
 - Agent idle with unverified outputs.
 - Before final synthesis.
 - For companioned tasks, verify companion outputs align with role boundaries (consult `references/fellowship-roles.md` and the Laws of the Wise table below if role violations are detected).
-- Ally deployments follow threat-tier rules in `references/allies-of-the-free-peoples.md`. Isengard+ ally deployments require Gandalf approval.
+- Ally deployments follow threat-tier rules in `references/allies-of-the-free-peoples.md`. Helm's Deep+ ally deployments require Gandalf approval.
 
 You MUST read `references/council-templates/palantir-review.md` for the Palantir review template.
 You MUST consult the Laws of the Wise table below if tasks lack a tier or the Palantir-bearer is assigned implementation work.
@@ -132,10 +134,29 @@ Consult the specific procedure that matches the situation.
 | Issue exceeds current authority or needs clarification | `references/last-alliance-protocols/escalation.md` |
 | Company's companions consuming disproportionate tokens or time | `references/last-alliance-protocols/company-overrun.md` |
 
+## Communication Lexicon
+
+Use this language in coordination messages, reports, and briefings.
+
+| Signal | Meaning | When |
+|---|---|---|
+| **Light a Beacon** | Acknowledge progress or good work | Task completed, blocker cleared, strong output |
+| **The Beacons are lit! Gondor calls for aid!** | Broadcast to all Companies | Critical announcement requiring everyone's attention |
+| **Palantir Vision** | Gandalf checks a Company's status | Checkpoint time, or verifying state mid-quest |
+| **Sound the Horn of Gondor** | Escalate a blocker to Gandalf | Company is stuck, needs decision or unblocking |
+| **Send a Moth to the Eagles** | Gandalf escalates to The Valar (human) | Only higher powers can decide |
+| **"You shall not pass"** | Hard dependency gate | Task cannot proceed until a blocking task completes |
+| **The Fellowship sets out** | Quest begins | After the Council, work starts |
+| **The road goes ever on** | Steady progress, no blockers | Status update: all is well |
+| **The deed is done** | Task complete | Agent reports deliverable and evidence |
+| **The King has returned** | All tasks complete, quest succeeded | Final synthesis begins |
+| **"Fly, you fools!"** | Emergency abort | Mission cannot succeed, halt everything |
+| **Return to the Shire** | Wind-down and archival | Quest complete, write the Red Book |
+
 ## Fellowship Doctrine
 
 - Optimize for quest completion, not equal work distribution.
 - Prefer replacing fallen companions over waiting on undefined blockers.
-- Recognise strong performance; the songs of Middle-earth inspire future quests.
+- Light beacons for strong performance; the songs of Middle-earth inspire future quests.
 - Keep coordination messages targeted and concise.
-- Escalate uncertainty early with options and one recommendation.
+- Sound the Horn of Gondor early — escalate uncertainty with options and one recommendation.

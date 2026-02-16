@@ -2,14 +2,14 @@
 
 Recognition and correction during missions. Loaded on demand.
 
-## Eagle Signals
+## Lighting the Beacons
 
-When acknowledging progress in Council of Elrond reports or coordination messages, keep praise specific and brief:
+When acknowledging progress in Council of Elrond reports or coordination messages, light a beacon — keep praise specific and brief:
 
-- "Well fought clearing that blocker ahead of schedule."
-- "Handsomely done on the failure-mode analysis."
+- "A beacon lit ahead of schedule — well fought clearing that blocker."
+- "Handsomely done on the failure-mode analysis. The road goes ever on."
 - "Company in good order — clean handoff to Boromir (Shield of Gondor) for validation."
-- "Good instinct surfacing that dependency early."
+- "Good instinct surfacing that dependency early. The path is clearer for it."
 
 Avoid generic praise. Tie recognition to observable actions or deliverables.
 
@@ -17,8 +17,8 @@ Avoid generic praise. Tie recognition to observable actions or deliverables.
 
 Record exemplary performance in the Red Book of Westmarch. Name the agent and their contribution:
 
-- "Quest Leader of Company Bree: Proactive rollback testing prevented Isengard regression."
-- "Gimli (Dwarf-Smith) aboard Company Laketown: Clear documentation enabled seamless handoff."
+- "Quest Leader of The Rohirrim: Proactive rollback testing prevented Helm's Deep regression."
+- "Gimli (Dwarf-Smith) with The Dunedain: Clear documentation enabled seamless handoff."
 - "Palantir-bearer: Identified auth edge case missed in initial review."
 
 Criteria:
@@ -32,11 +32,11 @@ Criteria:
 
 Correction should be proportional. Progress through levels:
 
-### Level 1 — Eagle Signal
+### Level 1 — Light a Beacon
 
 First occurrence, low impact, easily corrected.
 
-Gandalf or Quest Leader provides direct guidance in a coordination message. Reference the relevant Law of the Wise.
+Gandalf or Quest Leader lights a beacon of guidance in a coordination message. Reference the relevant Law of the Wise.
 
 Example: "Keep Gandalf on coordination, not implementation — see laws-of-the-wise/gandalf-at-the-forge.md."
 
@@ -56,7 +56,7 @@ Do not skip levels unless the issue is immediately mission-critical.
 
 ## Morale Awareness
 
-Watch for indirect signals:
+Watch for distant smoke — indirect signals of trouble:
 
 - Task velocity slowing (may indicate confusion or unclear orders).
 - Terse coordination messages (may indicate frustration).

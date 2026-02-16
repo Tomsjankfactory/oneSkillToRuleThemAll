@@ -49,19 +49,19 @@ Every file in this skill maps 1:1 to a Nelson file. When implementing, fetch the
 
 ### Threat Levels (replace Action Stations)
 
-| Nelson | Fellowship | Risk |
-|---|---|---|
-| Station 0: Patrol | The Shire | Low -- internal renames, comments |
-| Station 1: Caution | The Wilds | Moderate -- user-facing, coupled |
-| Station 2: Action | Isengard | High -- security, compliance |
-| Station 3: Trafalgar | Mount Doom | Critical -- irreversible, needs human confirmation |
+| Nelson | Fellowship | Quote | Risk |
+|---|---|---|---|
+| Station 0: Patrol | The Shire | *"...still there is much that is fair."* | Low -- internal renames, comments |
+| Station 1: Caution | Weathertop | *"Something draws near. I can feel it."* | Moderate -- user-facing, coupled |
+| Station 2: Action | Helm's Deep | *"So it begins."* | High -- security, compliance |
+| Station 3: Trafalgar | The Crack of Doom | *"Cast it into the fire! Destroy it!"* | Critical -- irreversible, needs human confirmation |
 
 ## Concept Mapping (Naming Glossary)
 
 | Nelson | Fellowship |
 |---|---|
 | Squadron | The Fellowship |
-| Ship | Company (named after Middle-earth locations) |
+| Ship | Company (named after Middle-earth peoples) |
 | Sailing Orders | The Quest |
 | Battle Plan | Strategy of the Council |
 | Quarterdeck Rhythm | Council of Elrond Checkpoints |
@@ -70,15 +70,17 @@ Every file in this skill maps 1:1 to a Nelson file. When implementing, fetch the
 | Damage Control | Last Alliance Protocols |
 | Royal Marines | Allies of the Free Peoples |
 | Commendations | Songs of Praise |
-| Signal Flags | Eagle Signals |
+| Signal Flags | Lighting the Beacons |
 
 ### Company Names (replace Ship Names, organized by task weight)
 
-- **Outposts** (general tasks): Bree, Laketown, Edoras, Helm's Deep, Osgiliath, Ithilien, Fornost, Tharbad
-- **Strongholds** (high-tempo/high-risk): Minas Tirith, Erebor, Khazad-dum, Isengard, Dol Amroth, Hornburg
-- **Waypoints** (small tasks): Weathertop, Amon Hen, Tol Brandir, Cair Andros, Henneth Annun
-- **Legendary Holds** (critical-path): Rivendell, Lothlorien, The Grey Havens, Valinor
-- **Hidden Paths** (research/stealth): Shelob's Lair, Paths of the Dead, Moria Depths, The Old Forest
+Companies are named after the peoples and forces of Middle-earth, not locations -- peoples act, places don't.
+
+- **Patrols** (small tasks): Bombadil's Folk, The Bree-folk, The Lake-men, Beorn's Folk, The Shire-muster
+- **War-bands** (general tasks): The Dunedain, The Rohirrim, The Men of Dale, The Beornings, The Green Elves, The Woodmen, The Wildermen, The Drúedain
+- **Hosts** (high-tempo/high-risk): The Galadhrim, The Guard of the Citadel, The Dwarves of Erebor, The Ents of Fangorn, The Host of the Mark, The Swan Knights
+- **Grand Alliances** (critical-path): The White Council, The Last Alliance, The Grey Company, The Vanguard of the King
+- **Shadow-walkers** (research/stealth): The Rangers of Ithilien, The Watchers in the Wood, The Pathfinders of Arnor, The Dead of Dunharrow
 
 ## File Structure (33 files, 1:1 with Nelson)
 
@@ -139,7 +141,7 @@ Gandalf will:
 2. **Form the Fellowship** -- select mode (single-session/subagents/agent-team), size the team, assign Company names
 3. **Hold the Council** -- break the quest into tasks with owners, deliverables, dependencies, and threat levels
 4. **Run Council of Elrond Checkpoints** -- periodic progress reviews, blocker resolution, budget tracking
-5. **Assess the Threat** -- apply threat-level controls (The Shire / The Wilds / Isengard / Mount Doom)
+5. **Assess the Threat** -- apply threat-level controls (The Shire / Weathertop / Helm's Deep / The Crack of Doom)
 6. **Return to the Shire** -- archive sessions, produce a Red Book of Westmarch entry
 
 ### Governance Limits
@@ -147,8 +149,8 @@ Gandalf will:
 - Fellowship cap: 10 agents (1 Gandalf + up to 9 Quest Leaders/Palantir-bearer)
 - Max 4 companions per Company
 - Max 2 allies (temporary sub-agents) per Company
-- Isengard+ ally deployments require Gandalf approval
-- Mount Doom tasks require explicit human (Valar) confirmation
+- Helm's Deep+ ally deployments require Gandalf approval
+- Crack of Doom tasks require explicit human (Valar) confirmation
 
 ## Verification Checklist
 
@@ -164,6 +166,6 @@ Gandalf will:
 - **The Valar as human authority** -- highest powers in Tolkien's cosmology, rarely intervene but hold ultimate authority
 - **Frodo is not an agent** -- represents the critical deliverable itself, the thing that must be carried to completion
 - **Palantir-bearer (not a named character)** -- the seeing-stone concept for adversarial review, avoiding negative connotations of Saruman/Denethor who misused Palantiri
-- **Companies named after locations** -- Rivendell/Lothlorien for critical-path, Weathertop for small tasks, Khazad-dum for high-risk
+- **Companies named after peoples** -- peoples act, places don't; The Grey Company for critical-path, Bombadil's Folk for small tasks, The Galadhrim for high-risk
 - **"Laws of the Wise"** -- Istari and Elven lords had codified knowledge about governance and restraint
 - **"Last Alliance"** -- the desperate coalition formed when things went badly wrong, maps perfectly to recovery procedures

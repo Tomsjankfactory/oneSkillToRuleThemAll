@@ -29,10 +29,10 @@ Never exceed 4 companions per Company. If the task demands more, split it into t
 | Aragorn (Ranger-King) | RK | Integration & orchestration across sub-tasks | general-purpose | 3+ companions or interdependent sub-tasks |
 | Gimli (Dwarf-Smith) | DS | Core implementation work | general-purpose | Almost always (default doer) |
 | Legolas (Elf-Scout) | ES | Codebase research & exploration | Explore | Unfamiliar code, large codebase |
-| Boromir (Shield of Gondor) | SG | Testing & validation | general-purpose | The Wilds+ or non-trivial verification |
+| Boromir (Shield of Gondor) | SG | Testing & validation | general-purpose | Weathertop+ or non-trivial verification |
 | Sam (Hobbit-Gardener) | HG | Config, infrastructure, systems integration | general-purpose | Significant config or infrastructure work |
 | Merry (Hobbit-Strategist) | HS | Documentation & dependency management | general-purpose | Docs as deliverable, dependency management |
-| Pippin (Hobbit-Watcher) | HW | Standards review & quality enforcement | Explore | The Wilds+ with established conventions |
+| Pippin (Hobbit-Watcher) | HW | Standards review & quality enforcement | Explore | Weathertop+ with established conventions |
 
 ### Read-Only Roles
 
@@ -44,27 +44,27 @@ Each companion works strictly within their role definition. A Gimli (Dwarf-Smith
 
 ## Company Name Registry
 
-Gandalf assigns a Company name to each Quest Leader during Fellowship formation. Choose names that roughly match task weight.
+Gandalf assigns a Company name to each Quest Leader during Fellowship formation. Companies are named after the peoples and forces of Middle-earth. Choose names that roughly match task weight.
 
-### Outposts (general-purpose tasks)
+### Patrols (small tasks)
 
-Bree, Laketown, Edoras, Helm's Deep, Osgiliath, Ithilien, Fornost, Tharbad
+Bombadil's Folk, The Bree-folk, The Lake-men, Beorn's Folk, The Shire-muster
 
-### Strongholds (high-tempo or high-risk tasks)
+### War-bands (general-purpose tasks)
 
-Minas Tirith, Erebor, Khazad-dum, Isengard, Dol Amroth, Hornburg
+The Dunedain, The Rohirrim, The Men of Dale, The Beornings, The Green Elves, The Woodmen, The Wildermen, The Drúedain
 
-### Waypoints (small tasks)
+### Hosts (high-tempo or high-risk tasks)
 
-Weathertop, Amon Hen, Tol Brandir, Cair Andros, Henneth Annun
+The Galadhrim, The Guard of the Citadel, The Dwarves of Erebor, The Ents of Fangorn, The Host of the Mark, The Swan Knights
 
-### Legendary Holds (critical-path tasks)
+### Grand Alliances (critical-path tasks)
 
-Rivendell, Lothlorien, The Grey Havens, Valinor
+The White Council, The Last Alliance, The Grey Company, The Vanguard of the King
 
-### Hidden Paths (stealth or research tasks)
+### Shadow-walkers (stealth or research tasks)
 
-Shelob's Lair, Paths of the Dead, Moria Depths, The Old Forest
+The Rangers of Ithilien, The Watchers in the Wood, The Pathfinders of Arnor, The Dead of Dunharrow
 
 ## Fellowship Laws of the Wise
 

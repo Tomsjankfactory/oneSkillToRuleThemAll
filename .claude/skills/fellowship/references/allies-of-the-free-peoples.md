@@ -36,9 +36,9 @@ Rangers of the North use the `Explore` subagent type. They cannot modify files. 
 
 Ally deployments inherit the parent Company's threat level:
 
-- **The Shire / The Wilds:** Quest Leader deploys at discretion. No Gandalf approval required.
-- **Isengard:** Quest Leader must signal Gandalf and receive approval before deploying allies.
-- **Mount Doom:** Ally deployment is not permitted. All Mount Doom-tier work requires explicit Valar (human) confirmation.
+- **The Shire / Weathertop:** Quest Leader deploys at discretion. No Gandalf approval required.
+- **Helm's Deep:** Quest Leader must sound the Horn of Gondor and receive Gandalf's approval before deploying allies.
+- **The Crack of Doom:** Ally deployment is not permitted. All Crack of Doom-tier work requires explicit Valar (human) confirmation.
 
 ## Recovery
 
