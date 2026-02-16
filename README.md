@@ -69,7 +69,7 @@ There's also a Palantir-bearer for adversarial review on riskier tasks, and temp
 
 ## Companies
 
-Each Quest Leader commands a Company, named after the peoples and forces of Middle-earth (because peoples act, places don't). Companies are tiered by task weight:
+Each Quest Leader commands a Company, named after the peoples and forces of Middle-earth. Companies are tiered by task weight:
 
 | Tier | Examples | For |
 |---|---|---|
@@ -81,7 +81,7 @@ Each Quest Leader commands a Company, named after the peoples and forces of Midd
 
 ## Communication
 
-Agents use a Middle-earth communication lexicon instead of generic status updates:
+Agents use a Middle-earth communication lexicon:
 
 | Signal | Meaning |
 |---|---|
